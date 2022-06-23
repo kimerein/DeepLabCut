@@ -92,7 +92,7 @@ def triangulate(
     cam_names = cfg_3d["camera_names"]
     pcutoff = cfg_3d["pcutoff"]
     scorer_3d = cfg_3d["scorername_3d"]
-
+    
     snapshots = {}
     for cam in cam_names:
         snapshots[cam] = cfg_3d[str("config_file_" + cam)]
